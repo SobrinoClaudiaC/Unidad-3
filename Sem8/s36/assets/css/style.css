@@ -1,0 +1,17 @@
+.flex-container {
+    background-color: rgb(84, 84, 253);
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flex-container > div {
+    background-color: rgba(79, 237, 185, 0.932);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+
+}

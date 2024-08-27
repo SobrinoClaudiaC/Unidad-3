@@ -1,0 +1,41 @@
+body{
+    padding: 2%;
+    color: rgba(164, 164, 164, 0.958);
+    max-width: 980px; ;
+    margin: 0 auto;
+    background-color: rgb(207, 134, 249);
+}
+
+div{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.field, textarea {
+    margin: 0 0.5em 1em 0;
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+}
+
+.field {
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 45%;
+}
+
+textarea{
+    width: 90%;
+    flex: 1 0 90%;
+}
+
+.button{
+    padding: 5px ;
+    border: 1px solid rgba(236, 234, 234, 0.979);
+    background-color: rgb(144, 113, 255);
+    color: rgb(95, 28, 157);
+}
+
+h1{
+    color: rgb(73, 7, 135);
+}
