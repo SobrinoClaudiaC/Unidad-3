@@ -58,7 +58,6 @@ nmes = [1, 2, 3, 4, 5, 6, 7];
 console.log(nmes);
 
 console.log("Agregando elementos");
-
 let subarr3 = nmes.splice(2, 4, "a", "b", true, 12312, "hola");
 console.log(subarr3);
 console.log(nmes);
