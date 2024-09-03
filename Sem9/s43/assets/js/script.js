@@ -47,6 +47,39 @@ puntos.sort((a,b)=>a-b);
 console.log("ordenamiento númerico estricto");
 console.log(puntos);
 
+const arr = [true,1,"hola",54.76,"76"];
+console.log(arr);
+
+arr.reverse();
+console.log(arr);
+
+console.log("Split");
+const frase = "Hola buenas tardes a todos";
+console.log(frase);
+
+let palabrass = frase.split(" ");
+console.log(palabrass);
+
+const csv = "Perú,Argentina,Chile,Colombia";
+console.log(csv);
+
+let paises = csv.split(",");
+console.log(paises);
+
+console.log("join");
+let strpalabras = palabrass.join(" ");
+console.log(strpalabras);
+
+let strpaises = paises.join();
+console.log(strpaises);
+
+
+
+
+
+
+
+
 
 
 
