@@ -3,7 +3,7 @@ const persona = {
     nombre: "Pedro",
     apellido: "Perez",
     edad: 25,
-    hobbies: ["ver películas, dibujar"]
+    hobbies: ["ver películas, dibujar"],
 };
 console.log(persona);
 //Acceder o modificar un objeto
