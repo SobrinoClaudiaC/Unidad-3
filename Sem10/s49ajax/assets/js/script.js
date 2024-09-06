@@ -40,6 +40,7 @@ function renderPicture(data) {
 }
 
 $(document).ready(function (){
+//Bucle para mostrar imágenes:
     for (let i = 0; i <10; i++){
         getPicture();
 
