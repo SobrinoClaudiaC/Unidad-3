@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(252, 230, 204);
+    background-color: rgb(210, 204, 252);
 }
 
 h1 {
     color: rgb(15, 15, 116);
 }
 
+h3 {
+    color: rgb(121, 7, 7);
+}
 p {
     color: rgb(92, 52, 129);
 }
