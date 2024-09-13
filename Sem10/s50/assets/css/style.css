@@ -1,5 +1,9 @@
 body {
-    background-color: bisque;
+    background-color: rgb(252, 230, 204);
+}
+
+h1 {
+    color: rgb(15, 15, 116);
 }
 
 p {
